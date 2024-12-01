@@ -1,0 +1,153 @@
+
+   .homepage {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+  }
+  
+  .failurevie-img-home {
+    width: 48px;
+    height: 48px;
+  }
+  .main-container-home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1440px;
+    height: 605px;
+    background-size: contain;
+    justify-content: center;
+  }
+  .poser-inside-details-cont-title {
+    font-size: 24px;
+    font-family: 'HK Grotesk';
+  }
+  .poser-inside-details-cont-overview {
+    font-size: 10px;
+    font-family: 'HK Grotesk';
+  }
+  .successTrendingViewPoster-cont {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  .successTrendingViewPoster-cont-div-head {
+    margin-left: 164px;
+    margin-top: 223px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+  }
+  .alertTriangle {
+    color: red;
+    width: 48px;
+    height: 48px;
+  }
+  .failureViewTrending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 466px;
+    width: 1109px;
+    color: white;
+  }
+  .failureVieworiginal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    width: 1109px;
+    color: white;
+  }
+  .failureViewTopRated {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 170px;
+    width: 1109px;
+    color: white;
+  }
+  .main-trandingview-succss {
+    display: flex;
+    height: 605px;
+    flex-direction: column;
+  }
+  .loader-container {
+    height: 100%;
+    width: 100%;
+  }
+  .display-flex {
+    display: flex;
+    height: 10vh;
+    color: white;
+    margin-top: 30px;
+    gap: 30px;
+  }
+  .main-topRated {
+    height: 100%;
+    width: 100%;
+  }
+  .main-orginal {
+    height: 100%;
+    width: 100%;
+  }
+  .poser-inside-details-cont {
+    width: 30%;
+  }
+  
+  @media screen and (max-width: 400px) {
+    .homepage {
+      width: 400px;
+      height: 100%;
+    }
+    .main-container-home {
+      width: 400px;
+      height: 480px;
+      justify-content: space-between;
+    }
+  
+    .poser-inside-details-cont {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 50%;
+    }
+    .successTrendingViewPoster-cont {
+      justify-content: space-between;
+      padding-bottom: 50px;
+    }
+    .successTrendingViewPoster-cont-div-head {
+      margin-top: 20px;
+      justify-content: space-between;
+      margin-left: 20px;
+    }
+  
+    .main-orginal h1 {
+      font-size: 12px;
+    }
+    .main-topRated h1 {
+      font-size: 12px;
+    }
+    .failureViewTrending {
+      height: 213px;
+      width: 296px;
+    }
+    .failureVieworiginal {
+      height: 100pxx;
+      width: 180px;
+    }
+    .failureViewTopRated {
+      height: 100px;
+      width: 180px;
+    }
+  } 
+  

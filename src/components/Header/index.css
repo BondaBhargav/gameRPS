@@ -1,0 +1,90 @@
+@media screen and (max-width: 400px) {
+  .Header-cont-sm {
+    width: 100%;
+
+    align-items: center;
+    opacity: 0.7;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-logo {
+    width: 80px;
+    color: red;
+    font-size: 24px;
+    height: 25px;
+    padding: 0px;
+    margin-left: 10px;
+  }
+
+  .websitelogoimg_lg {
+    height: 39px;
+    width: 135px;
+  }
+  .websitelogoimg-sm {
+    height: 27px;
+    width: 100px;
+  }
+  .head-right {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    height: 25px;
+    gap: 20px;
+    padding-right: 20px;
+  }
+  .sm-logo-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: center;
+}
+.Link {
+  text-decoration: none;
+  color: white;
+}
+.search-icon-lg {
+  width: 80px;
+}
+.sm-Hambuger {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  align-items: center;
+  align-self: center;
+}
+.search-input {
+  display: flex;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+.Header-cont-lg {
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  opacity: 0.8;
+  background-color: none;
+}
+.header-logo {
+  width: 150px;
+  height: 35px;
+  font-size: 35px;
+}
+.Header-cont-sm {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+}

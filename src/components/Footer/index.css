@@ -1,0 +1,17 @@
+
+
+.display-flex {
+    display: flex;
+    height: 10vh;
+    color: white;
+    margin-top: 30px;
+    gap: 30px;
+  }
+  .footer {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  } 
+    
+  

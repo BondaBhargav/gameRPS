@@ -1,0 +1,182 @@
+.movieItemDetails-Cont {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  padding: 0 16px;
+}
+
+.d-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.top-poster-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 500px;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.poster-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 12px;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.failure-View {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 80vh;
+  text-align: center;
+}
+
+.success-View {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+  max-width: 1440px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.display-movieItem-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  width: 100%;
+  max-width: 1024px;
+  margin: 24px 0;
+}
+
+.display-movieItem-col {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.display-movieItem-row h1 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.display-movieItem-row p {
+  font-size: 14px;
+}
+
+.movies-more {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.similarMovies-img {
+  width: 150px;
+  height: 225px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.similarMovies-List {
+  margin: 5px;
+}
+
+.btn-play {
+  width: 100px;
+  padding: 8px 16px;
+  background-color: #1db954;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.overview {
+  font-size: 14px;
+  line-height: 1.6;
+  max-height: 4.5em;
+  overflow: hidden;
+}
+
+.loadingDiv {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .top-poster-header {
+    height: 400px;
+    padding: 16px;
+  }
+
+  .poster-description h1 {
+    font-size: 28px;
+  }
+
+  .display-movieItem-row {
+    gap: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .similarMovies-img {
+    width: 120px;
+    height: 180px;
+  }
+
+  .btn-play {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .top-poster-header {
+    height: 300px;
+  }
+
+  .poster-description h1 {
+    font-size: 20px;
+  }
+
+  .display-movieItem-row {
+    gap: 12px;
+  }
+
+  .similarMovies-img {
+    width: 100px;
+    height: 150px;
+  }
+
+  .overview {
+    font-size: 12px;
+    max-height: 3.6em;
+  }
+}

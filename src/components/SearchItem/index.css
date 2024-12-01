@@ -1,0 +1,66 @@
+.serachContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 100%;
+  background-color: black;
+  color: red;
+  min-height: 100vh;
+}
+.not-found-img {
+  width: 45vw;
+  height: 50vh;
+}
+.success-View-cont {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  flex-wrap: wrap;
+}
+.search-buttom-cont {
+  width: 100%;
+  max-width: 1440px;
+  height: 100%;
+}
+
+.failure-View {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100%;
+}
+.failure-View img {
+  width: 50%;
+}
+
+.search-list-item {
+  list-style-type: none;
+  width: 255px;
+  margin: 10px;
+  height: 170px;
+}
+@media screen and (max-width: 400px) {
+  .search-list-item {
+    width: 90px;
+    height: 100px;
+    margin: 5px;
+  }
+  .success-View-cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex-wrap: wrap;
+  }
+}
+.initialView {
+  min-height: 80%;
+  min-width: 100%;
+} 
+
